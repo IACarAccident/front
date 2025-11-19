@@ -1,61 +1,61 @@
 export enum DayOfWeek {
-    saturday = "Saturday",
-    wednesday = "Wednesday",
-    sunday = "Sunday",
-    tuesday = "Tuesday",
-    thursday = "Thursday",
-    friday = "Friday",
-    monday = "Monday"
+    saturday = "saturday",
+    wednesday = "wednesday",
+    sunday = "sunday",
+    tuesday = "tuesday",
+    thursday = "thursday",
+    friday = "friday",
+    monday = "monday"
 }
 
 export enum JunctionControl {
-    giveWay = "Give way or uncontrolled",
-    notAtJunction = "Not at junction or within 20 metres",
-    trafficSignal = "Auto traffic signal",
-    stopSign = "Stop sign",
-    authorisedPerson = "Authorised person",
+    giveWay = "give way or uncontrolled",
+    notAtJunction = "not at junction or within 20 metres",
+    trafficSignal = "auto traffic signal",
+    stopSign = "stop sign",
+    authorisedPerson = "authorised person",
 }
 
 export enum JunctionDetail {
-    tJunction = "T or staggered junction",
-    notAtJunction = "Not at junction or within 20 metres",
-    crossroads = "Crossroads",
-    miniRoundabout = "Mini-roundabout",
-    roundabout = "Roundabout",
-    otherJunction = "Other junction",
-    slipRoad = "Slip road",
-    privateDrive = "Private drive or entrance",
-    moreThan4Arms = "More than 4 arms (not roundabout)"
+    tJunction = "t or staggered junction",
+    notAtJunction = "not at junction or within 20 metres",
+    crossroads = "crossroads",
+    miniRoundabout = "mini-roundabout",
+    roundabout = "roundabout",
+    otherJunction = "other junction",
+    slipRoad = "slip road",
+    privateDrive = "private drive or entrance",
+    moreThan4Arms = "more than 4 arms (not roundabout)"
 }
 
 export enum AccidentSeverity {
-    slight = "Slight",
-    serious = "Serious",
-    fatal = "Fatal",
+    slight = "slight",
+    serious = "serious",
+    fatal = "fatal",
 }
 
 export enum LightConditions {
-    daylight = "Daylight",
-    darknessLit = "Darkness - lights lit",
-    darknessUnknown = "Darkness - lighting unknown",
-    darknessNoLighting = "Darkness - no lighting",
-    darknessUnlit = "Darkness - lights unlit"
+    daylight = "daylight",
+    darknessLit = "darkness - lights lit",
+    darknessUnknown = "darkness - lighting unknown",
+    darknessNoLighting = "darkness - no lighting",
+    darknessUnlit = "darkness - lights unlit"
 }
 
 export enum RoadSurfaceConditions {
-    wet = "Wet or damp",
-    dry = "Dry",
-    frost = "Frost or ice",
-    snow = "Snow",
-    flood = "Flood over 3cm. deep"
+    wet = "wet or damp",
+    dry = "dry",
+    frost = "frost or ice",
+    snow = "snow",
+    flood = "flood over 3cm. deep"
 }
 
 export enum RoadType {
-    singleCarriageway = "Single carriageway",
-    dualCarriageway = "Dual carriageway",
-    roundabout = "Roundabout",
-    slipRoad = "Slip road",
-    oneWayStreet = "One way street"
+    singleCarriageway = "single carriageway",
+    dualCarriageway = "dual carriageway",
+    roundabout = "roundabout",
+    slipRoad = "slip road",
+    oneWayStreet = "one way street"
 }
 
 export enum SpeedLimit {
@@ -69,19 +69,19 @@ export enum SpeedLimit {
 }
 
 export enum UrbanRuralArea {
-    urban = "Urban",
-    rural = "Rural"
+    urban = "urban",
+    rural = "rural"
 }
 
 export enum WeatherConditions {
-    fineNoWind = "Fine no high winds",
-    rainingNoWind = "Raining no high winds",
-    fineHighWinds = "Fine + high winds",
-    snowingNoWind = "Snowing no high winds",
-    rainingHighWinds = "Raining + high winds",
-    other = "Other",
-    fog = "Fog or mist",
-    snowingHighWinds = "Snowing + high winds"
+    fineNoWind = "fine no high winds",
+    rainingNoWind = "raining no high winds",
+    fineHighWinds = "fine + high winds",
+    snowingNoWind = "snowing no high winds",
+    rainingHighWinds = "raining + high winds",
+    other = "other",
+    fog = "fog or mist",
+    snowingHighWinds = "snowing + high winds"
 }
 
 export interface AccidentData {
